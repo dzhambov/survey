@@ -19,7 +19,7 @@ $(document).ready(function() {
   } else if (result <= 22) {
       $("#ruby").show();
       $("#csharp, #python").hide();
-
+    
       return (result);
 
   };
