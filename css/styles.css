@@ -23,7 +23,7 @@ img {
 }
 
 h1 {
-  text-decoration: underline;
+  padding-top: 100px;
   font-style: italic;
   text-shadow: 1px 1px 2px #7ec4fc;
 }
@@ -58,5 +58,9 @@ div {
 }
 
 .jumbotron {
-  background-image: url("http://cdn.differencebetween.net/wp-content/uploads/2018/01/Difference-between-Coding-and-Programming.jpg")
+  color: white;
+  background-image: url("https://marketingweek.imgix.net/content/uploads/2017/05/12103909/Coding-body-image-.jpg?auto=compress,format,&crop=faces,entropy,edges&fit=crop&q=60&w=750&h=");
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 900px;
 }
