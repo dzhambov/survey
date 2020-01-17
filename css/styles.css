@@ -16,7 +16,6 @@ img {
   height: 250px;
   border: solid 4px;
   border-radius: 50px 0 50px 50px;
-  float: left;
 }
 
 h2 {
@@ -42,13 +41,6 @@ h4 {
 .form-group {
   padding-top: 5px;
   padding-bottom: 5px;
-}
-
-body {
- background-color: #cccccc;
- padding-bottom: 5px;
- margin-top: 20px;
- margin-bottom: 20px;
 }
 
 div {
