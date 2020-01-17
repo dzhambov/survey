@@ -6,8 +6,10 @@ $(document).ready(function() {
     var pc = parseInt($("#pc").val());
     var city = parseInt($("#city").val());
     var lego = parseInt($("#city").val());
+    var nameInput = $("input#name").val();
     var result = (color + browser + pc + city + lego);
-
+    
+    
   if (result <= 7) {
     $("#csharp").show();
     $("#python, #ruby").hide();
