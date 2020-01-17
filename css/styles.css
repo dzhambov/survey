@@ -14,26 +14,28 @@
 img {
   width: 350px;
   height: 250px;
-}
-
-.banner {
-  display: flex;
-  background-color: teal;
-  justify-content: center;
-}
-
-h1 {
-  padding-top: 100px;
-  font-style: italic;
-  text-shadow: 1px 1px 2px #7ec4fc;
+  border: solid 4px;
+  border-radius: 50px 0 50px 50px;
+  float: left;
 }
 
 h2 {
+  padding-top: 100px;
+  padding-bottom: none;
+  font-style: italic;
+  text-shadow: 1px 1px 2px #7ec4fc;
   text-align: center;
   font-style: italic;
 }
 
 h3 {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold
   font-style: italic;
 }
 
@@ -59,8 +61,5 @@ div {
 
 .jumbotron {
   color: white;
-  background-image: url("https://marketingweek.imgix.net/content/uploads/2017/05/12103909/Coding-body-image-.jpg?auto=compress,format,&crop=faces,entropy,edges&fit=crop&q=60&w=750&h=");
-  background-repeat: no-repeat;
-  height: 400px;
-  width: 900px;
+  background-image: url("https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/what-is-coding-1024x439.png");
 }
