@@ -1,4 +1,4 @@
-# _Programing Language Survey_
+# _Programming Language Survey_
 
 #### _If you are thinking of going to coding school, you are probably wandering which language is best for you. This quick survey will help you decide based on your personality._
 
