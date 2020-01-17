@@ -9,7 +9,8 @@ $(document).ready(function() {
     var nameInput = $("input#name").val();
     var result = (color + browser + pc + city + lego);
     
-    
+  $(".name").text(nameInput);
+
   if (result <= 7) {
     $("#csharp").show();
     $("#python, #ruby").hide();
