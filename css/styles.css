@@ -64,4 +64,8 @@ div {
 
 .column p{
   font-size: 20px;
+  text-align: left;
+  border: solid 2px;
+  height: 200px;
+  width: 550px;
 }
