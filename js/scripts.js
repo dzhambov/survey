@@ -23,7 +23,7 @@ $(document).ready(function() {
       $("#ruby").show();
       $("#csharp, #python").hide();
     
-      return (result);
+      return (result).slideDown();
 
   };
 
