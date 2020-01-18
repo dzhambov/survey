@@ -4,8 +4,7 @@
 }
 
 #button {
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin: 20px 0 40px 20px;
 }
 
 #ruby, #python, #csharp {
@@ -26,6 +25,8 @@ h2 {
   text-shadow: 1px 1px 2px #7ec4fc;
   text-align: center;
   font-style: italic;
+  transform: rotate(-5deg);
+  font-size: 40px;
 }
 
 h3 {
@@ -35,7 +36,7 @@ h3 {
 }
 
 h4 {
-  font-weight: bold
+  font-weight: bold;
   font-style: italic;
 }
 
@@ -55,4 +56,12 @@ div {
 .jumbotron {
   color: white;
   background-image: url("https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/what-is-coding-1024x439.png");
+}
+
+.panel-heading {
+  padding-bottom: 30px;
+}
+
+.column p{
+  font-size: 20px;
 }
