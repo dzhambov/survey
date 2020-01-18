@@ -12,10 +12,11 @@
 }
 
 img {
-  width: 350px;
-  height: 250px;
+  width: 40%;
+  height: 300px;
   border: solid 4px;
   border-radius: 50px 0 50px 50px;
+  float: right;
 }
 
 h2 {
@@ -65,7 +66,7 @@ div {
 .column p{
   font-size: 20px;
   text-align: left;
-  border: solid 2px;
-  height: 200px;
-  width: 550px;
+  height: 240px;
+  width: 50%;
+  padding: 10px 10px 0 10px;
 }
