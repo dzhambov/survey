@@ -5,7 +5,7 @@ $(document).ready(function() {
     var browser = parseInt($("#browser").val());
     var pc = parseInt($("#pc").val());
     var city = parseInt($("#city").val());
-    var lego = parseInt($("#city").val());
+    var lego = parseInt($("#lego").val());
     var nameInput = $("input#name").val();
     var result = (color + browser + pc + city + lego);
     
@@ -23,7 +23,7 @@ $(document).ready(function() {
       $("#ruby").show();
       $("#csharp, #python").hide();
     
-      return (result).slideDown();
+      return (result);
 
   };
 

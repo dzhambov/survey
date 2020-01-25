@@ -5,19 +5,19 @@
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <script src="js/jquery-3.4.1.js"></script>
-  <script src="js/scripts.js"></script>  
+  <script src="js/scripts.js"></script>
   <title>Survey</title>
 </head>
 <body>
   <div class="container">
-    <div class="jumbotron" >
+    <div class="jumbotron">
       <h2>Programming Language Suggester</h2>
     </div>
     <form id="survey">
       <div class="panel-heading">
         <h3>Take This Quick Survey To Decide Which Programming Language Is Best For You:</h3>
-      </div>       
-      <h4>What Is You Favorite Color?</h4>      
+      </div>
+      <h4>What Is You Favorite Color?</h4>
       <div class="form-group">
         <select class="custom-select my-1 mr-sm-2" id="color">
           <option>Choose a color...</option>
@@ -39,9 +39,9 @@
 
       <h4>What Is Your Favorite Computer Brand?</h4>
       <div class="form-group">
-        <select class="custom-select my-1 mr-sm-2"id="pc">
+        <select class="custom-select my-1 mr-sm-2" id="pc">
           <option> Favorite Computer... </option>
-          <option value="5">Apple</option>   
+          <option value="5">Apple</option>
           <option value="3">HP</option>
           <option value="1">Lenovo</option>
         </select>
@@ -66,11 +66,13 @@
         </select>
       </div>
       <div class="col-md-6">
-        <label for="name"><h4>Please enter your name</h4></label>
+        <label for="name">
+          <h4>Please enter your name</h4>
+        </label>
         <input type="text" class="form-control" id="name" placeholder="">
       </div>
-      <button type="submit" class="btn btn-primary btn-lg" id ="button"><strong>Submit</strong></button>  
-    </form>   
+      <button type="submit" class="btn btn-primary btn-lg" id="button"><strong>Submit</strong></button>
+    </form>
     <div class="panel-footer">
       <p><strong>Thank You For Taking The Time To Answer These Questions</strong></p>
     </div>
@@ -80,20 +82,32 @@
     </div>
     <div class="panel-body">
       <div class="column" id="ruby">
-        <p>Hello <em><span class="name"></span></em>,<br>Ruby was mainly designed as a general-purpose scripting language, which provides the wide support for the different applications of ruby. It is mainly getting used for a web application, standard libraries, servers, and other system utilities. Ruby has one of the great strength is metaprogramming.
-        Learn about the best use of <a href="https://www.educba.com/uses-of-ruby/"><strong>Ruby</strong></a>.</p>
+        <p>Hello <em><span class="name"></span></em>,<br>Ruby was mainly designed as a general-purpose scripting
+          language, which provides the wide support for the different applications of ruby. It is mainly getting used
+          for a web application, standard libraries, servers, and other system utilities. Ruby has one of the great
+          strength is metaprogramming.
+          Learn about the best use of <a href="https://www.educba.com/uses-of-ruby/"><strong>Ruby</strong></a>.</p>
         <img src="img/ruby.png" class="float-right">
       </div>
-    
+
       <div class="column" id="python">
-        <p>Hello <em><span class="name"></span></em>,<br> Python is a general purpose and high level programming language. You can use Python for developing desktop GUI applications, websites and web applications. Also, Python, as a high level programming language, allows you to focus on core functionality of the application by taking care of common programming tasks.
-        Important reasons why you should use <a href="https://medium.com/@mindfiresolutions.usa/python-7-important-reasons-why-you-should-use-python-5801a98a0d0b"><strong>Python</strong></a>.</p>
+        <p>Hello <em><span class="name"></span></em>,<br> Python is a general purpose and high level programming
+          language. You can use Python for developing desktop GUI applications, websites and web applications. Also,
+          Python, as a high level programming language, allows you to focus on core functionality of the application by
+          taking care of common programming tasks.
+          Important reasons why you should use <a
+            href="https://medium.com/@mindfiresolutions.usa/python-7-important-reasons-why-you-should-use-python-5801a98a0d0b"><strong>Python</strong></a>.
+        </p>
         <img src="img/python.png">
       </div>
 
       <div class="column" id="csharp">
-        <p>Hello <em><span class="name"></span></em>,<br>C# can be used to create almost anything but is particularly strong at building Windows desktop applications and games. C# can also be used to develop web applications and has become increasingly popular for mobile development too.
-        Why it is worth learing <a href="https://medium.com/sololearn/why-is-c-among-the-most-popular-programming-languages-in-the-world-ccf26824ffcb"><strong>C#</strong></a>?</p>
+        <p>Hello <em><span class="name"></span></em>,<br>C# can be used to create almost anything but is particularly
+          strong at building Windows desktop applications and games. C# can also be used to develop web applications and
+          has become increasingly popular for mobile development too.
+          Why it is worth learing <a
+            href="https://medium.com/sololearn/why-is-c-among-the-most-popular-programming-languages-in-the-world-ccf26824ffcb"><strong>C#</strong></a>?
+        </p>
         <img src="img/csharp.png">
       </div>
     </div>
